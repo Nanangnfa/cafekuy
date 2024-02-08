@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Toko Saya | Keranjang</title>
+    <link rel="stylesheet" href="bootstrap-5.0.0-dist/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css" />
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="dist/css/lightbox.min.css">
+</head>
+
+<body>
+    <!-- navbar -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark main-color fixed-top">
+        <div class="container-fluid">
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <img class="me-2" src="image/logoo.png" alt="" style="width: 50px;">
+                <a class="navbar-brand me-auto" href="#">Cafekuy</a>
+                <ul class="navbar-nav">
+                    <li class="nav-item me-5">
+                        <a class="nav-link" aria-current="page" href="index.html">Home</a>
+                    </li>
+                    <li class="nav-item me-5">
+                        <a class="nav-link" href="produk.html">Produk</a>
+                    </li>
+                    <li class="nav-item me-5">
+                        <a class="nav-link" href="promo.html">Promo</a>
+                    </li>
+                    <li class="nav-item me-5">
+                        <a class="nav-link active" href="#" tabindex="-1" aria-disabled="true"><i
+                                class="bi bi-cart"></i> Keranjang</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <!-- end navbar -->
+
+    <!-- tabel -->
+    <div class="container-fluid py-5">
+        <div class="container">
+            <h2 class="my-5 text-center">Keranjang Belanja</h2>
+
+            <div class="table-responsive">
+                <table class="table">
+                    <tr>
+                        <th>#</th>
+                        <th>Pesanan</th>
+                        <th>Harga</th>
+                        <th>Jumlah</th>
+                        <th>Total</th>
+                    </tr>
+                    <tr style="vertical-align: middle;">
+                        <td>
+                            <a href="image/product/french-fries.jpg" data-lightbox="produk-french-fries.jpg"
+                                data-title="Baked Pastry">
+                                <img src="image/product/thumb/french-fries.jpg" alt="" width="150px"
+                                    class="img-thumbnail d-none d-sm-block">
+
+                                <label class="d-block d-sm-none">French Fries</label>
+                            </a>
+                        </td>
+                        <td>French Fries</td>
+                        <td>Rp 20.000</td>
+                        <td>1</td>
+                        <td>Rp. 20.000</td>
+                    </tr>
+                    <tr style="vertical-align: middle;">
+                        <td>
+                            <a href="image/product/steak.jpg" data-lightbox="produk-steak.jpg"
+                                data-title="Baked Pastry">
+                                <img src="image/product/thumb/steak.jpg" alt="" width="150px"
+                                    class="img-thumbnail d-none d-sm-block">
+
+                                <label class="d-block d-sm-none">French Fries</label>
+                            </a>
+                        </td>
+                        <td>Steak</td>
+                        <td>Rp 20.000</td>
+                        <td>1</td>
+                        <td>Rp. 20.000</td>
+                    </tr>
+                    <tr>
+                        <th colspan="4">Total</th>
+                        <th>Rp. 40.000</th>
+                    </tr>
+                </table>
+            </div>
+
+            <button class="btn btn-warning text-light">Checkout</button>
+        </div>
+    </div>
+    <!-- endtabel -->
+
+    <!-- info pribadi -->
+    <div class="container-fluid py-5 content-subs text-light">
+        <div class="container">
+            <h5 class="text-center mb-4">Temui Kami</h5>
+            <div class="row justify-content-center">
+
+                <div class="col-sm-1 d-flex justify-content-center mb-2">
+                    <i class="bi bi-facebook fs-4"></i>
+                </div>
+                <div class="col-sm-1 d-flex justify-content-center mb-2">
+                    <i class="bi bi-instagram fs-4"></i>
+                </div>
+                <div class="col-sm-1 d-flex justify-content-center mb-2">
+                    <i class="bi bi-linkedin fs-4"></i>
+                </div>
+                <div class="col-sm-1 d-flex justify-content-center">
+                    <i class="bi bi-youtube fs-4"></i>
+                </div>
+            </div>
+
+            <h5 class="text-center mt-4 mb-0">Subscribe</h5>
+            <p class="text-center font-monoscope">untuk informasi tentang promo</p>
+            <div class="offset-md-2 col-md-8 col-lg-6 offset-lg-3">
+                <div class="input-group mb-3">
+                    <input type="text" class="form-control" placeholder="Ketikkan Email" aria-label="Ketikkan Email"
+                        aria-describedby="button-addon2">
+                    <button class="btn btn-warning text-light" type="button" id="button-addon2">Subscribe</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- end info pribadi -->
+
+    <!-- footer -->
+    <div class="container-fluid py-3 bg-dark text-light">
+        <div class="container d-flex justify-content-between">
+            <label>&copy;2023 cafekuy</label>
+            <label>Created by nanangnfa</label>
+        </div>
+    </div>
+    <!-- end footer -->
+
+    <script src="bootstrap-5.0.0-dist/js/bootstrap.bundle.min.js"></script>
+    <script src="dist/js/lightbox-plus-jquery.min.js"></script>
+</body>
+
+</html>

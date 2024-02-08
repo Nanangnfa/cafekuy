@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Toko Saya | Baked Pastry</title>
+    <link rel="stylesheet" href="bootstrap-5.0.0-dist/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css" />
+    <link rel="stylesheet" href="css/style.css" />
+
+</head>
+
+<!-- navbar -->
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark main-color fixed-top">
+    <div class="container-fluid">
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+            aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <img class="me-2" src="image/logoo.png" alt="" style="width: 50px;">
+            <a class="navbar-brand me-auto" href="#">Cafekuy</a>
+            <ul class="navbar-nav">
+                <li class="nav-item me-5">
+                    <a class="nav-link" aria-current="page" href="index.html">Home</a>
+                </li>
+                <li class="nav-item me-5">
+                    <a class="nav-link active" href="produk.html">Produk</a>
+                </li>
+                <li class="nav-item me-5">
+                    <a class="nav-link" href="promo.html">Promo</a>
+                </li>
+                <li class="nav-item me-5">
+                    <a class="nav-link" href="cart.html" tabindex="-1" aria-disabled="true"><i class="bi bi-cart"></i>
+                        Keranjang</a>
+                </li>
+            </ul>
+        </div>
+    </div>
+</nav>
+<!-- end navbar -->
+
+<!-- breadcrumb -->
+<div class="container-fluid pt-5">
+    <div class="container pt-5">
+        <nav style="--bs-breadcrumb-divider: '>';" aria-label="breadcrumb">
+            <ol class="breadcrumb">
+                <li class="breadcrumb-item"><a href="produk.html" style="text-decoration: none;">Produk</a></li>
+                <li class="breadcrumb-item">Western</li>
+                <li class="breadcrumb-item active">Baked Pastry</li>
+            </ol>
+        </nav>
+    </div>
+</div>
+<!-- end breadcrumb -->
+
+<!-- main -->
+<div class="container-fluid">
+    <div class="container">
+        <div class="row">
+            <!-- produk img -->
+            <div class="col-md-5 col-lg-4 mb-3">
+                <img src="image/product/baked-pastry.jpg" class="img-fluid rounded-3" alt="">
+            </div>
+            <!-- detail produk -->
+            <div class="col-md-6 offset-md-1 col-lg-7 offset-lg-1">
+                <h1>Baked Patry</h1>
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dolores reiciendis ab ullam repellendus et
+                    neque itaque dicta cumque maiores tenetur</p>
+                <h2 class="text-warning">Rp 25.000</h2>
+                <button class="btn btn-outline-warning mt-3">Beli Sekarang</button>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- endmain -->
+
+<!-- rekomendasi -->
+<div class="container-fluid py-5 mt-5" style="background-color: #fef9ec;">
+    <div class="container">
+        <h2 class="text-center mb-5">Rekomendasi Untuk Anda</h2>
+
+        <div class="row justify-content-center">
+            <div class="col-lg-2 col-md-3 col-sm-6 mb-3">
+                <a href="detail.html">
+                    <img src="image/product/thumb/fried-rice.jpg" class="img-fluid img-thumbnail rounded-3" alt="">
+                </a>
+            </div>
+
+            <div class="col-lg-2 col-md-3 col-sm-6 mb-3">
+                <a href="detail.html">
+                    <img src="image/product/thumb/deep-fried-meat.jpg" class="img-fluid img-thumbnail rounded-3" alt="">
+                </a>
+            </div>
+
+            <div class="col-lg-2 col-md-3 col-sm-6 mb-3">
+                <a href="detail.html">
+                    <img src="image/product/thumb/grilled-meat.jpg" class="img-fluid img-thumbnail rounded-3" alt="">
+                </a>
+            </div>
+
+            <div class="col-lg-2 col-md-3 col-sm-6 mb-3">
+                <a href="detail.html">
+                    <img src="image/product/thumb/chicken-dish.jpg" class="img-fluid img-thumbnail rounded-3" alt="">
+                </a>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- endrekomend -->
+
+<!-- info pribadi -->
+<div class="container-fluid py-5 content-subs text-light">
+    <div class="container">
+        <h5 class="text-center mb-4">Temui Kami</h5>
+        <div class="row justify-content-center">
+
+            <div class="col-sm-1 d-flex justify-content-center mb-2">
+                <i class="bi bi-facebook fs-4"></i>
+            </div>
+            <div class="col-sm-1 d-flex justify-content-center mb-2">
+                <i class="bi bi-instagram fs-4"></i>
+            </div>
+            <div class="col-sm-1 d-flex justify-content-center mb-2">
+                <i class="bi bi-linkedin fs-4"></i>
+            </div>
+            <div class="col-sm-1 d-flex justify-content-center">
+                <i class="bi bi-youtube fs-4"></i>
+            </div>
+        </div>
+
+        <h5 class="text-center mt-4 mb-0">Subscribe</h5>
+        <p class="text-center font-monoscope">untuk informasi tentang promo</p>
+        <div class="offset-md-2 col-md-8 col-lg-6 offset-lg-3">
+            <div class="input-group mb-3">
+                <input type="text" class="form-control" placeholder="Ketikkan Email" aria-label="Ketikkan Email"
+                    aria-describedby="button-addon2">
+                <button class="btn btn-warning text-light" type="button" id="button-addon2">Subscribe</button>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- end info pribadi -->
+
+<!-- footer -->
+<div class="container-fluid py-3 bg-dark text-light">
+    <div class="container d-flex justify-content-between">
+        <label>&copy;2023 cafekuy</label>
+        <label>Created by nanangnfa</label>
+    </div>
+</div>
+<!-- end footer -->
+
+<script src="bootstrap-5.0.0-dist/js/bootstrap.bundle.min.js"></script>
+
+<body>
+
+</body>
+
+</html>
